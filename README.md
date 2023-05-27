@@ -3,7 +3,7 @@ Getir-Clone
 
 Welcome to **Getir-Clone**, a scalable and modern web application inspired by Getir's dynamic structure. This project was designed with cutting-edge tech-stack, mainly featuring Next.js, Tailwind CSS, TypeScript and the latest React version. 
 
-**Live: [Netlify](https://62dc1d66d621ec2fb2cd9145--aesthetic-bavarois-cc5389.netlify.app/)**
+**Live: [Netlify](https://aesthetic-bavarois-cc5389.netlify.app/)**
 
 ---
 
