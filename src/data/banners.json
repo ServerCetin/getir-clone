@@ -1,18 +1,18 @@
 [
   {
     "id": 1,
-    "image": "https://cdn.getir.com/misc/611e55d33ea65bef40f9ba05_banner_tr_1629378026496.jpeg"
+    "image": "/assets/images/main-page/getir-mainpage-1.jpg"
   },
   {
     "id": 2,
-    "image": "https://cdn.getir.com/misc/611e4a50c270af509cd486b5_banner_tr_1629375115516.jpeg"
+    "image": "/assets/images/main-page/getir-mainpage-2.jpg"
   },
   {
     "id": 3,
-    "image": "https://cdn.getir.com/misc/5fb524d4c725f1530045cefc_banner_tr_1609343376255.jpeg"
+    "image": "/assets/images/main-page/getir-mainpage-3.jpg"
   },
   {
     "id": 4,
-    "image": "https://cdn.getir.com/misc/6069cee3f7be2b6472dc8b5f_banner_tr_1629921878792.jpeg"
+    "image": "/assets/images/main-page/getir-mainpage-4.jpg"
   }
 ]

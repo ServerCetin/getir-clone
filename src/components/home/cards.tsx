@@ -1,4 +1,4 @@
-import CardItem from "./CardItem";
+import CardItem from "./cardItem";
 
 function Cards() {
 

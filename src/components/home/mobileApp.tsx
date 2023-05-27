@@ -1,7 +1,7 @@
 function MobileApp() {
 
 	return (
-		<div className="container mx-auto md:max-w-[1519px] md:px-32">
+		<div className="container mx-auto md:max-w-[1519px] md:px-32" >
 			<div className="bg-purple-700 flex flex-col sm:flex-row items-center sm:pl-12 justify-between bg-mobile-app rounded-lg">
 				<div className="text-white p-5 sm:p-0 text-center sm:text-left">
 					<h3 className="text-3xl	tracking-tighter font-bold">Getir'i indirin!</h3>
@@ -24,7 +24,7 @@ function MobileApp() {
 					</div>
 				</div>
 				<div className="self-end mt-4">
-					<img src="https://getir.com/_next/static/images/phoneLanding-88c033545710c4808054072689e187d7.png"/>
+					<img src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png"/>
 				</div>
 			</div>
 		</div>

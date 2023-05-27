@@ -1,6 +1,6 @@
 import {AiOutlinePlus} from 'react-icons/ai'
 
-function ProductItem({product}) {
+function ProductItem({product} : any) {
 	return (
 		<div className="p-3 bg-white">
 			<picture className="relative block">
