@@ -4,7 +4,7 @@ function MobileApp() {
 		<div className="container mx-auto md:max-w-[1519px] md:px-32" >
 			<div className="bg-purple-700 flex flex-col sm:flex-row items-center sm:pl-12 justify-between bg-mobile-app rounded-lg">
 				<div className="text-white p-5 sm:p-0 text-center sm:text-left">
-					<h3 className="text-3xl	tracking-tighter font-bold">Getir'i indirin!</h3>
+					<h3 className="text-3xl	tracking-tighter font-bold">Getir&apos;i indirin!</h3>
 					<p className="font-semibold text-xs sm:text-base mt-3">
 						İstediğiniz ürünleri dakikalar içinde kapınıza <br/> getirelim.
 					</p>

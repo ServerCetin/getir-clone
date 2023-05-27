@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-y-4">
                         <nav>
                             <h3 className="text-lg text-purple-700 mb-4">
-                                Getir'i indirin!
+                                Getir&apos;i indirin!
                             </h3>
                             <ul className="grid grid-cols-2 sm:grid-cols-1 gap-y-3">
                                 <li>
@@ -37,7 +37,7 @@ export default function Footer() {
                         </nav>
                         <nav>
                             <h3 className="text-lg text-purple-700 mb-4">
-                                Getir'i keşfedin
+                                Getir&apos;i keşfedin
                             </h3>
                             <ul className="grid gap-y-3 text-sm">
                                 <li>
