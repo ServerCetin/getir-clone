@@ -1,6 +1,11 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
     extend: {
       colors: {
@@ -10,12 +15,9 @@ module.exports = {
         'brand-yellow': '#ffd300'
       },
       backgroundImage: theme => ({
-        'mobile-app': 'url(https://getir.com/_next/static/images/doodle-d659f9f1fd505c811c2331fe3ffddd5f.png)'
+        'mobile-app': 'url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png)'
       })
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 }

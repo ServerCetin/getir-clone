@@ -1,4 +1,4 @@
-function CardItem({card: {title, image, description}}) {
+function CardItem({card: {title, image, description}} : any) {
 	return (
 		<div className="bg-white flex flex-col gap-y-2 text-center items-center rounded-lg px-6 py-10">
 			<img alt="" src={image} className="w-36 h-36 mb-4"/>
