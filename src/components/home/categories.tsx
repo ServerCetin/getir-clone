@@ -1,15 +1,7 @@
-'use client';
-import {useEffect, useState} from 'react'
-import categoriesData from '@/data/categories'
 import CategoryItem from './categoryItem';
 import {HomeCategory} from "@/types/homeCategory";
 
-function Categories() {
-	const [categories, setCategories] = useState<HomeCategory[]>([])
-
-	useEffect(() => {
-		setCategories(categoriesData)
-	}, [])
+function Categories({categories}:{categories: HomeCategory[]}) {
 
 	return (
 		<div className="bg-white py-6">

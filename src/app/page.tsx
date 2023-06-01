@@ -1,7 +1,10 @@
 import HomePageContainer from "@/containers/homePage";
+import {fetchAllCategories} from "@/service/categories";
 
-export default function App() {
+export default async function App() {
+  const categories = await fetchAllCategories();
+
   return (
-      <HomePageContainer />
+      <HomePageContainer categories={categories}/>
   );
 }
