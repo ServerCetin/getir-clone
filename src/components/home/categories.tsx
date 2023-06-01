@@ -1,6 +1,6 @@
 'use client';
 import {useEffect, useState} from 'react'
-import categoriesData from '../../data/categories.json'
+import categoriesData from '@/data/categories'
 import CategoryItem from './categoryItem';
 import {HomeCategory} from "@/types/homeCategory";
 

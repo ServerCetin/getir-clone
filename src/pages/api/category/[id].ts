@@ -1,5 +1,5 @@
 import {NextApiRequest, NextApiResponse} from 'next';
-import categories from '@/data/categories.json';
+import categories from '@/data/categories';
 import {generateResponse, ApiResponse, generate500Response, generate400Response} from '@/utils/apiUtils';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {

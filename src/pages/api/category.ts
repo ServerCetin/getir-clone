@@ -1,17 +1,11 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import categories from '../../data/categories.json';
+import categories from '@/data/categories';
 import { paginate, validateQuery, ApiPaginatedResponse } from '@/utils/apiUtils';
+import { HomeCategory } from "@/types/homeCategory";
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
-    const { page, limit } = validateQuery(req.query);
-    const data = paginate(categories, page, limit);
+export default function handler(req: NextApiRequest, res: NextApiResponse<ApiPaginatedResponse<HomeCategory>>) {
+    const { page, take } = validateQuery(req.query);
+    const paginatedData = paginate(categories, page, take);
 
-    const response: ApiPaginatedResponse<typeof categories[0]> = {
-        page,
-        limit,
-        total: categories.length,
-        data,
-    }
-
-    res.status(200).json(response);
+    res.status(200).json(paginatedData);
 }
