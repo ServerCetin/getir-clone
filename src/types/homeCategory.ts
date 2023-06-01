@@ -1,5 +1,5 @@
 export type HomeCategory = {
     id: number;
-    "title": string,
-    "image": string,
+    title: string,
+    image: string,
 }

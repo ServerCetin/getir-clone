@@ -98,7 +98,7 @@ export default function Footer() {
                     <div
                         className="flex justify-between flex-col items-center gap-y-3 sm:gap-y-0 sm:flex-row text-sm pt-1 sm:pt-3">
                         <div className="flex gap-x-4 text-gray-700">
-                            &copy; 2021 Getir
+                            &copy; 2023 Getir
                             <div>
                                 <a href="#" className="text-purple-800 hover:underline">Bilgi Toplumu Hizmetleri</a>
                             </div>
