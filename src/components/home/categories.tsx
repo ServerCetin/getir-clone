@@ -2,9 +2,10 @@
 import {useEffect, useState} from 'react'
 import categoriesData from '../../data/categories.json'
 import CategoryItem from './categoryItem';
+import {HomeCategory} from "@/types/homeCategory";
 
 function Categories() {
-	const [categories, setCategories] = useState<any>([])
+	const [categories, setCategories] = useState<HomeCategory[]>([])
 
 	useEffect(() => {
 		setCategories(categoriesData)
