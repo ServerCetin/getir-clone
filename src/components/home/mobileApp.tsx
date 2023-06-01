@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function MobileApp() {
 
 	return (
@@ -10,21 +12,18 @@ function MobileApp() {
 					</p>
 					<div className="grid sm:flex grid-cols-2 gap-2 mt-4 sm:mt-8">
 						<a href="#">
-							<img
-								src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg"/>
+							<Image alt={"apple-store"} width={160} height={48}  src="/assets/images/main-page/app-store.svg"/>
 						</a>
 						<a href="#">
-							<img
-								src="https://getir.com/_next/static/images/googleplay-tr-6b0c941b7d1a65d781fb4b644498be75.svg"/>
+							<Image alt={"google-play"} width={160} height={48}  src="/assets/images/main-page/google-play.svg"/>
 						</a>
 						<a href="#">
-							<img
-								src="https://getir.com/_next/static/images/huawei-appgallery-tr-4b890fa3167bc62f9069edaf45aa7f30.svg"/>
+							<Image alt={"huawei"} width={160} height={48}  src="/assets/images/main-page/huawei.svg"/>
 						</a>
 					</div>
 				</div>
 				<div className="self-end mt-4">
-					<img src="https://cdn.getir.com/getirweb-images/common/landing/phoneLanding.png"/>
+					<Image alt={"huawei"} width={605} height={288}  src="/assets/images/main-page/phone-landing.png"/>
 				</div>
 			</div>
 		</div>

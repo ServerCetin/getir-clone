@@ -4,8 +4,8 @@ import Slider from 'react-slick';
 import ReactFlagsSelect from 'react-flags-select';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Image from "next/image";
 function HeroSection() {
-
     const [selected, setSelected] = useState('TR');
 
     const settings = {
@@ -44,9 +44,7 @@ function HeroSection() {
                 <div
                     className="w-full md:max-w-[1519px] md:px-32 sm:container flex mx-auto justify-between items-center">
                     <div className="gap-y-10 flex-col hidden sm:flex">
-                        <img alt="1" height={180} width={180}
-                             src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"
-                        />
+                        <Image alt="1" height={180} width={180} src="/assets/images/getir-logo.svg"/>
                         <h3 className="text-4xl font-semibold tracking-tighter	 text-white">
                             Dakikalar içinde <br/> kapınızda
                         </h3>

@@ -4,7 +4,6 @@ import categoriesData from '../../data/categories.json'
 import CategoryItem from './categoryItem';
 
 function Categories() {
-
 	const [categories, setCategories] = useState<any>([])
 
 	useEffect(() => {

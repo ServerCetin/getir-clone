@@ -1,5 +1,6 @@
 import {FaFacebook, FaTwitter, FaInstagram} from 'react-icons/fa'
 import {FiGlobe} from 'react-icons/fi';
+import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -14,23 +15,17 @@ export default function Footer() {
                             <ul className="grid grid-cols-2 sm:grid-cols-1 gap-y-3">
                                 <li>
                                     <a href="#">
-                                        <img
-                                            src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg"
-                                            alt=""/>
+                                        <Image alt={"apple-store"} width={160} height={48} src="/assets/images/main-page/app-store.svg"/>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img
-                                            src="https://getir.com/_next/static/images/googleplay-tr-6b0c941b7d1a65d781fb4b644498be75.svg"
-                                            alt=""/>
+                                        <Image alt={"google-play"} width={160} height={48} src="/assets/images/main-page/google-play.svg"/>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img
-                                            src="https://getir.com/_next/static/images/huawei-appgallery-tr-4b890fa3167bc62f9069edaf45aa7f30.svg"
-                                            alt=""/>
+                                        <Image alt={"huawei"} width={160} height={48} src="/assets/images/main-page/huawei.svg"/>
                                     </a>
                                 </li>
                             </ul>
