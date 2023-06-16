@@ -47,3 +47,6 @@
 [data-testid="rfs"] {
     @apply !pb-0
 }
+.sm-head{
+    @apply font-semibold text-sm mb-2
+}
